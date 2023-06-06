@@ -1,0 +1,13 @@
+
+-- create
+CREATE TABLE ORDERS (
+  order_id INTEGER PRIMARY KEY,
+  customer_id INTEGER,
+  order_date date,
+  order_total decimal,
+);
+
+INSERT INTO ORDERS VALUES (4,12,12/01/2001,34.78);
+INSERT INTO ORDERS VALUES (6,12,13/01/2001,45.78);
+INSERT INTO ORDERS VALUES (5,12,14/01/2001,48.78);
+
